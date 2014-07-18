@@ -1,0 +1,10 @@
+{application, unixtime,
+ [
+  {description, "unixtime:gettime to get unix timestamp"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib,
+                  asn1]},
+  {env, []}
+ ]}.
