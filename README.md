@@ -25,18 +25,22 @@ unixtime serves as an example for using [dialyzer][1], [typer][2], [eunit][3], [
 ---------------------------------------------------------
 
  1. Compile
+ 
     ```bash
     $ rebar compile
     ```
  2. Eunit
+ 
     ```bash
     $ rebar eunit
     ```
  3. EDoc
+ 
     ```bash
     $ rebar doc
     ```
  4. Dialyzer, build 'persistent lookup table', then run dialyzer and typer on unixtime
+ 
     ```bash
     $ dialyzer # dialyzer with no options to see examples
     $ dialyzer --build_plt --apps erts kernel stdlib
